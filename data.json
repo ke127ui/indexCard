@@ -1,60 +1,1074 @@
 {
   "type1": [
     {
-      "title": "소프트 아키텍처1",
-      "main_txt": "4+1뷰",
-      "desc_main": "제작자(4)+사용자(1)의 관점(view)",
-      "desc_sub": "논리적 관점, 구현관점, 배치관점, \n프로세스 관점, 유스케이스 관점"
+      "title": "소프트웨어 생명주기 모델(SDLC)",
+      "main_txt": "소프트웨어 생명주기",
+      "desc_main": "시스템의 요구분석부터 유지보수까지 전 공정 체계화한 절차",
+      "desc_sub": "<b>폭프나반</b>\n요구사항 분석 > 설계 > 구현 > 테스트 > 유지보수"
     },
     {
-      "title": "소프트 아키텍처ddd2",
-      "main_txt": "MVC패턴",
-      "desc_main": "모델-뷰-컨트롤러 구조",
-      "desc_sub": "각 역할의 분리로 유지보수성 향상"
+      "title": "소프트웨어 생명주기 모델(SDLC)",
+      "main_txt": "폭포수 모델",
+      "desc_main": "Waterfall Model",
+      "desc_sub": "단계 확실히 마무리 지은 후 다음 단계로 넘어감(고전적 생명주기 모형) \n 타당성 검토 > 계획 > 요구사항 분석 > 설계 > 구현 > 테스트 > 유지보수"
+    },
+    {
+      "title": "소프트웨어 생명주기 모델(SDLC)",
+      "main_txt": "프로토타이핑 모델",
+      "desc_main": "Prototyping Model",
+      "desc_sub": "요구한 주요 기능 프로토타입으로 구현, 피드백 반영해 sw만들어가는 모델"
+    },
+    {
+      "title": "소프트웨어 생명주기 모델(SDLC)",
+      "main_txt": "나선형 모델",
+      "desc_main": "Spiral Model",
+      "desc_sub": "위험 최소화하기 위해 점진적으로 완벽한 시스템으로 개발해 나가는 모델 \n <b>계획 및 정의 > 위험분석 > 개발 > 고객평가</b>"
+    },
+    {
+      "title": "소프트웨어 생명주기 모델(SDLC)",
+      "main_txt": "반복적 모델",
+      "desc_main": "Iteration Model",
+      "desc_sub": "구축대상 나누어 병력적 개발 후 통합 or 반복적 개발 점증 완성"
+    },
+    {
+      "title": "소프트웨어 개발 방법론",
+      "main_txt": "구조적 방법론",
+      "desc_main": "Structured Development",
+      "desc_sub": "전체 시스템 기능 따라 나누어 개발, 이를 통합하는 분할과 정복 접근 방식"
+    },
+    {
+      "title": "소프트웨어 개발 방법론",
+      "main_txt": "정보공학 방법론",
+      "desc_main": "Infomation Engineering Development",
+      "desc_sub": "정보 시스템 개발 필요한 관리 절차, 작업 기법 체계화"
+    },
+    {
+      "title": "소프트웨어 개발 방법론",
+      "main_txt": "객체 지향 방법론",
+      "desc_main": "Object-Oriented Development",
+      "desc_sub": "객체 기본 단위로 시스템 분석 및 설계"
+    },
+    {
+      "title": "소프트웨어 개발 방법론",
+      "main_txt": "컴포넌트 기반 방법론(CBD)",
+      "desc_main": "Component Based Development",
+      "desc_sub": "컴포넌트 조립해 새로운 응용프로그램 작성\n복잡성, 유지보수 비용 낮음\n재사용성, 생산성, 품질 높음"
+    },
+    {
+      "title": "소프트웨어 개발 방법론",
+      "main_txt": "애자일 방법론",
+      "desc_main": "Agile Development",
+      "desc_sub": "절차 < 사람, 유연/신속, 효율적"
+    },
+    {
+      "title": "소프트웨어 개발 방법론",
+      "main_txt": "제품 계열 방법론",
+      "desc_main": "Product Line Development",
+      "desc_sub": "특정 제품에 적용하고 싶음 공통 기능 정의"
+    },
+    {
+      "title": "애자일Agile 방법론",
+      "main_txt": "XP",
+      "desc_main": "eXtreme Programming",
+      "desc_sub": "5가지 가치 \n <b>피드백 / 존중 / 용기 / 의사소통 / 단순성</b>"
+    },
+    {
+      "title": "애자일Agile 방법론",
+      "main_txt": "스크럼",
+      "desc_main": "SCRUM",
+      "desc_sub": "매일 정해진 시간, 장소에서 짧은 시간의 개발하는 팀을 위한 프로젝트 관리 중심 \n <b>백로그(pj요구사항) > 스프린트(2~4주 짧은 개발 기간 반복적 수행) > 스크럼 미팅(매일 15분 미팅) > 스크럼 마스터(스크럼 수행 시 문제 인지/해결하는 사람) > 스프린트 회고(정해놓은 규칙 준수 여부 기록)</b>"
+    },
+    {
+      "title": "애자일Agile 방법론",
+      "main_txt": "린",
+      "desc_main": "Lean",
+      "desc_sub": "도요타 린 시스템 품질기법 개발 프로세스 적용 \n JIT, 칸반보드 사용"
+    },
+    {
+      "title": "애자일Agile 방법론",
+      "main_txt": "NS차트",
+      "desc_main": "Nassi-Shneidrman",
+      "desc_sub": "논리적 흐름 시각적 표현, 복합 조건 처리 시각적 식별"
+    },
+    {
+      "title": "객체 지향 분석(OOA)",
+      "main_txt": "Jacobson",
+      "desc_main": "야콥슨 - OOSE",
+      "desc_sub": "<b>유스케이스</b> 접근, 유스케이스 모든 모델 근간으로 활용"
+    },
+    {
+      "title": "객체 지향 분석(OOA)",
+      "main_txt": "Rumbaugh",
+      "desc_main": "럼바우 - OMT",
+      "desc_sub": "그래픽 표기법 사용 <b>객</b>체,<b>동</b>적,<b>기</b>능 모델링 \n <b>Object</b>: 객체 다이어그램 \n <b>Dynamic</b>: 상태 다이어그램 \n <b>Functional</b>: 자료 흐름도(DFD)"
+    },
+    {
+      "title": "객체 지향 분석(OOA)",
+      "main_txt": "Booch",
+      "desc_main": "부치 - OOD",
+      "desc_sub": "설꼐 문서화 강조, 다이어그램 중심 개발"
+    },
+    {
+      "title": "비용 산정 모형",
+      "main_txt": "코드 라인 수",
+      "desc_main": "LoC; Lines of Code",
+      "desc_sub": "코드예측시 = (원시코드 라인수-비관치- + 4 * 기대치-중간치- + 낙관치) / 6"
+    },
+    {
+      "title": "비용 산정 모형",
+      "main_txt": "기능점수 모형",
+      "desc_main": "FP; Function Point",
+      "desc_sub": "s/w기능요구사항 점수 부여 후 점수바탕 비용 산정"
+    },
+    {
+      "title": "비용 산정 모형",
+      "main_txt": "COCOMO 모형",
+      "desc_main": "Bohem(보헴)제안 모형, 프로그램 규모 따라 비용 산정(Man Month 기준)",
+      "desc_sub": "<b>조직형 Organic</b>: 50KDSI(5만) 라인 이하 \n <b>반 분리형Semi-Detached</b>: 300KDSI(30만) 라인 이하 \n <b>임베디드형Embedded</b>: 300KDSI 라인 이상"
+    },
+    {
+      "title": "비용 산정 모형 - COCOMO",
+      "main_txt": "Man Month",
+      "desc_main": "프로젝트를 완성하는 데 필요한 노력",
+      "desc_sub": "한 사람이 1개월 동안 할 수 있는 일의 양 기준 비용 산정"
+    },
+    {
+      "title": "비용 산정 모형",
+      "main_txt": "Putnam",
+      "desc_main": "<b>생명주기 예측 모형</b>",
+      "desc_sub": "Rayleigh-Norden곡선 노력 분포도 기초"
+    },
+    {
+      "title": "고객 요구사항 정리",
+      "main_txt": "소프트웨어 아키텍처 4+1뷰",
+      "desc_main": "Usecase 사용",
+      "desc_sub": "<b>유스케이스 뷰</b>: 사용자 관점, 유스케이스DG\n<b>논리Logical 뷰</b>: 설계자 관점, 클래스/시퀸스DG\n<b>프로세스 뷰</b>: 시스템 통합자 관점, 시퀸스/협력DG\n<b>구현Implementation 뷰</b>: 개발자, 컴포넌트DG\n<b>배포Deployment 뷰</b>: 개발자, 배포DG"
+    },
+    {
+      "title": "",
+      "main_txt": "Usecase",
+      "desc_main": "시스템이 액터에게 제공해야 하는 기능, 시스템 요구사항",
+      "desc_sub": ""
+    },
+    {
+      "title": "소프트웨어 아키텍처 패턴",
+      "main_txt": "Layer Pattern",
+      "desc_main": "계층화 패턴",
+      "desc_sub": "시스템 계층 구분 구성"
+    },
+    {
+      "title": "소프트웨어 아키텍처 패턴",
+      "main_txt": "Client-Server Pattern",
+      "desc_main": "클라이언트-서버 패턴",
+      "desc_sub": "하나의 서버-다수 클라이언트"
+    },
+    {
+      "title": "소프트웨어 아키텍처 패턴",
+      "main_txt": "Pipe-Filter Pattern",
+      "desc_main": "파이프-필터 패턴",
+      "desc_sub": "데이터 스트림 생성, 처리 시스템 사용"
+    },
+    {
+      "title": "소프트웨어 아키텍처 패턴",
+      "main_txt": "Broker Pattern",
+      "desc_main": "브로커 패턴",
+      "desc_sub": "분리 컴포넌트로 이루어진 분산 시스템 이용, 상호 작용 가능"
+    },
+    {
+      "title": "소프트웨어 아키텍처 패턴",
+      "main_txt": "MVC",
+      "desc_main": "Model View Controller Pattern\n모델-뷰-컨트롤러 패턴",
+      "desc_sub": "대화형 애플리케이션 서브 시스템 구조화"
+    },
+    {
+      "title": "",
+      "main_txt": "디자인 패턴",
+      "desc_main": "s/w공학의 s/w설계에서 공통으로 발생하는 문제 대해 자주 쓰이는 설계 방법 정리",
+      "desc_sub": "GoF 3가지 구분 23개 패턴 <b>생성</b>: 어떻게 생성하고 초기화하는지?\n <b>구조</b>: 클래스-객체 조합\n <b>행위</b>: 객채 간 상호작용"
+    },
+    {
+      "title": "생성 Creational",
+      "main_txt": "Singleton",
+      "desc_main": "싱글톤",
+      "desc_sub": "객체 단 한 개 존재 보장장"
+    },
+    {
+      "title": "생성 Creational",
+      "main_txt": "Factory Method",
+      "desc_main": "팩토리 매소드",
+      "desc_sub": "하위 클래스에 책임 위임(객체 생성 책임 분리)"
+    },
+    {
+      "title": "생성 Creational",
+      "main_txt": "Abstract Factory",
+      "desc_main": "추상 팩토리",
+      "desc_sub": "여러 객체 한번에 생성시 사용 인터페이스 제공"
+    },
+    {
+      "title": "생성 Creational",
+      "main_txt": "Builder",
+      "desc_main": "빌더",
+      "desc_sub": "객체 생성 시 단계별 객체 조립"
+    },
+    {
+      "title": "생성 Creational",
+      "main_txt": "Prototype",
+      "desc_main": "프로토타입",
+      "desc_sub": "기존 객체 복사해 새 객체 만듦"
+    },
+    {
+      "title": "구조 Structural",
+      "main_txt": "Adapter",
+      "desc_main": "어댑터",
+      "desc_sub": "기존 생성 클래스 재사용 가능하게게 중간에서서 인터페이스 연결"
+    },
+    {
+      "title": "구조 Structural",
+      "main_txt": "Bridge",
+      "desc_main": "브리지",
+      "desc_sub": "기능 구현 분리하고 독립적 변경 가능케 함함"
+    },
+    {
+      "title": "구조 Structural",
+      "main_txt": "Composite",
+      "desc_main": "컴포지트",
+      "desc_sub": "개별/객체 그룹 동일 방식으로 다루게함"
+    },
+    {
+      "title": "구조 Structural",
+      "main_txt": "Decorator",
+      "desc_main": "데코레이터",
+      "desc_sub": "객체에 동적으로 새 기능 추가"
+    },
+    {
+      "title": "구조 Structural",
+      "main_txt": "Facade",
+      "desc_main": "퍼사드",
+      "desc_sub": "복잡 서브시스템에 간단 인터페이스 제공"
+    },
+    {
+      "title": "구조 Structural",
+      "main_txt": "Flyweigth",
+      "desc_main": "플라이웨이트",
+      "desc_sub": "메모리 절양 위해 유사객체 공유"
+    },
+    {
+      "title": "구조 Structural",
+      "main_txt": "Proxy",
+      "desc_main": "프록시",
+      "desc_sub": "다른 객체 대신해 접근 제어/추가 기능 제공공"
+    },
+    {
+      "title": "행위 Behavioral",
+      "main_txt": "Chain of Responsibility",
+      "desc_main": "책임 연쇄",
+      "desc_sub": "객체 연결해 처리 객체 찾을 때까지 요청 전달"
+    },
+    {
+      "title": "행위 Behavioral",
+      "main_txt": "Command",
+      "desc_main": "커맨드",
+      "desc_sub": "명령 객체 형태로 캡슐화"
+    },
+    {
+      "title": "행위 Behavioral",
+      "main_txt": "Interpreter",
+      "desc_main": "인터프리터",
+      "desc_sub": "언어/표현식 객체표현, 해석"
+    },
+    {
+      "title": "행위 Behavioral",
+      "main_txt": "Iterator",
+      "desc_main": "이터레이터",
+      "desc_sub": "요소 순차적 접근, 집합체 안의 모든 항목 접근 방법 제공"
+    },
+    {
+      "title": "행위 Behavioral",
+      "main_txt": "Mediator",
+      "desc_main": "중재자",
+      "desc_sub": "중재자 통해 간접 소통(상호작용 조정)"
+    },
+    {
+      "title": "행위 Behavioral",
+      "main_txt": "Memento",
+      "desc_main": "메멘토",
+      "desc_sub": "백업해 리턴 가능하게 함"
+    },
+    {
+      "title": "행위 Behavioral",
+      "main_txt": "Observer",
+      "desc_main": "옵저버",
+      "desc_sub": "상태 변화 시 자동 알림"
+    },
+    {
+      "title": "행위 Behavioral",
+      "main_txt": "State",
+      "desc_main": "상태",
+      "desc_sub": "객체 상태 캡슐화해 클래스화, 상태 따라 행동 다르게 처리(유지보수 편의)"
+    },
+    {
+      "title": "행위 Behavioral",
+      "main_txt": "Strategy",
+      "desc_main": "전략",
+      "desc_sub": "알고리즘 객체화"
+    },
+    {
+      "title": "행위 Behavioral",
+      "main_txt": "Template Method",
+      "desc_main": "",
+      "desc_sub": "뼈대 정의, 구체적 단계 하위클래스 정의(알고리즘 구조 정의)"
+    },
+    {
+      "title": "행위 Behavioral",
+      "main_txt": "Visitor",
+      "desc_main": "방문자",
+      "desc_sub": "외부에서 새 연산 추가 가능하게 함"
+    },
+    {
+      "title": "",
+      "main_txt": "Middleware",
+      "desc_main": "미들웨어",
+      "desc_sub": "분산 컴퓨팅 환경에서 응용pg-pg운영 환경 간 원만한 통신 이루어질 수 있도록 제어해주는 s/w \n 운영체제, 소프트웨어 애플리케이션 사이에 위치 \n 대표적 미들웨어: WAS"
+    },
+    {
+      "title": "Middleware",
+      "main_txt": "WAS",
+      "desc_main": "웹 애플리케이션 서버",
+      "desc_sub": "서버 계층에서 APP동작할 수 있는 환경 제공, 타 이기종 시스템-APP연동 지원 서버 \n 가용성, 성능, 기술지원, 구축비용 고려"
+    },
+    {
+      "title": "",
+      "main_txt": "요구 공학",
+      "desc_main": "사용자 요구가 반영된 시스템 개발 위해 사용자 요구사항에 대한 도출, 분석, 명세, 확인 검증 구조화 활동",
+      "desc_sub": "<b>기능적 요구사항</b>: 시스템 기능 \n <b>비기능적 요구사항</b>: 시스템 동작(성질, 품질, 보안)"
+    },
+    {
+      "title": "요구사항 개발 단계",
+      "main_txt": "도출 Eliciction",
+      "desc_main": "인터뷰: 이해관계자 대화 정보 수집 \n 브레인스토밍: 비판없이 수용토록하는 회의 \n델파이 기법: 전문가 경험적 지식 통한 문제 해결 및 미래 예측 \n롤 플레잉: 장면 설정 및 연기로 요구사항 분석 및 수집 \n워크숍: 전문적 정보 획득 및 공유 \n설문조사: 여론조사 등으로 간접적 정보 수집",
+      "desc_sub": ""
+    },
+    {
+      "title": "요구사항 개발 단계",
+      "main_txt": "분석 Analysis",
+      "desc_main": "요구사항 분류 > 개념 모델링 생성 및 분석 > 요구사항 할당 > 협상 > 정형분석(구문Syntax과 의미Semantics 갖는 정형화 된 언어 사용해 수학적 기호로 표현)",
+      "desc_sub": "자료 흐름 지향 분석 / 객체 지향 분석"
+    },
+    {
+      "title": "요구사항 개발 단계",
+      "main_txt": "명세 Specification",
+      "desc_main": "<b>비정형 명세 기법</b>: 요구 표현 시 자연어 기반 서술 \n <b>정형 명세 기법</b>: 요구 표현 시 수학적 원리와 표기법 서술",
+      "desc_sub": "검증 항목: <b>명확성, 완전성, 검증 가능성, 일관성, 수정 용이성, 추적 가능성, 개발 후 이용성</b>"
+    },
+    {
+      "title": "요구사항 개발 단계",
+      "main_txt": "확인 Validation",
+      "desc_main": "<b>정형 기술 검토 활용</b> \n <b>동료 검토 Perr Review</b>: 2~3명의 개발자가 진행하는 리뷰 형태 \n <b>워크스루 Walk Through</b>: 오류 조기 검출 목표, 회의 전 짧게 사전검토 리뷰 후 문서화 \n <b>인스팩션 Inspection</b>: 개발자 비참여 검사 검토",
+      "desc_sub": "요구사항 검토, 프로토타이핑 활용, 모델 검증, 테스트 케이스 및 테스트 통한 확인, CASE 도구 활용 검증, Baseline통한 검증, 요구사항 추적표(RTM)통한 검증"
     }
   ],
   "type2": [
     {
-      "title": "DB 설계1",
-      "main_txt": "정규화",
-      "desc_main": "데이터 중복 제거",
-      "desc_sub": "1NF, 2NF, 3NF..."
+      "title": "DBMS 현행 시스템 분석 시 고려 사항",
+      "main_txt": "가성호기구",
+      "desc_main": "성능 측면: <b>가용성, 성능, 상호호환성</b> \n 지원 측면: <b>기술 지원, 구축 비용</b>",
+      "desc_sub": ""
     },
     {
-      "title": "소프트 아키텍처332",
-      "main_txt": "MVC패턴",
-      "desc_main": "모델-뷰-컨트롤러 구조",
-      "desc_sub": "각 역할의 분리로 유지보수성 향상"
+      "title": "데이터 모델 표시 요소",
+      "main_txt": "Operation",
+      "desc_main": "연산",
+      "desc_sub": "DB에 저장된 실제 데이터 처리하는 작업에 대한 명세"
+    },
+    {
+      "title": "데이터 모델 표시 요소",
+      "main_txt": "Structure",
+      "desc_main": "구조",
+      "desc_sub": "DB에 논리적으로 표현될 대상으로서의 개체 타입-개체 타입 간의 관계"
+    },
+    {
+      "title": "데이터 모델 표시 요소",
+      "main_txt": "Constraint",
+      "desc_main": "제약 조건",
+      "desc_sub": "DB에 저장될 수 있는 실제 데이터 논리적 제약 조건"
+    },
+    {
+      "title": "데이터 모델 절차",
+      "main_txt": "요구사항 분석",
+      "desc_main": "<b>개논물</b>",
+      "desc_sub": "<b>개념적 설계</b>: 사용자 트랜잭션 모델링 \n <b>논리적 설계</b>: 트랜잭션 인터페이스 설계 \n <b>물리적 설계</b>: 논리 데이터 모델 특정 DBMS특성 및 성능 고려해 물리적 스키마 제작"
+    },
+    {
+      "title": "논리 데이터 모델링 속성",
+      "main_txt": "개속관",
+      "desc_main": "<b>개체 Entity</b>: 관리할 대상 되는 실체 \n<b>속성 Attribute</b>: 관리 정보 구체적 항목 \n<b>관계 Relationship</b>: 개체 간 대응 관계",
+      "desc_sub": ""
+    },
+    {
+      "title": "",
+      "main_txt": "ER모델",
+      "desc_main": "개체-관계 모델",
+      "desc_sub": "현실 세계에 존재하는 데이터와 그들 간의 관계를 사람이 이해할 수 있는 형태로 명확하게 표현하기 위해 가장 널리 사용되고 있는 모델"
+    },
+    {
+      "title": "",
+      "main_txt": "Normalization",
+      "desc_main": "정규화",
+      "desc_sub": "<b>원부이결다조</b> \n관계형 데이터 모델에서 중복성을 제거하여 이상현상 방지하고, 데이터의 일관성/정확성 유지하기 위해 무손실 분해하는 과정"
+    },
+    {
+      "title": "정규화 Normalization",
+      "main_txt": "1정규형(1NF)",
+      "desc_main": "원자값으로 구정정",
+      "desc_sub": ""
+    },
+    {
+      "title": "정규화 Normalization",
+      "main_txt": "2정규형(2NF)",
+      "desc_main": "부분 함수 종속 제거(완전 함수적 종속 관계)",
+      "desc_sub": ""
+    },
+    {
+      "title": "정규화 Normalization",
+      "main_txt": "3정규형(3NF)",
+      "desc_main": "이행 함수 종속 제거",
+      "desc_sub": ""
+    },
+    {
+      "title": "정규화 Normalization",
+      "main_txt": "보이스-코드 정규형(BCNF)",
+      "desc_main": "결정자 후보키가 아닌 함수 종속 제거",
+      "desc_sub": ""
+    },
+    {
+      "title": "정규화 Normalization",
+      "main_txt": "4정규형(4NF)",
+      "desc_main": "다중값(다치) 종속 제거",
+      "desc_sub": ""
+    },
+    {
+      "title": "정규화 Normalization",
+      "main_txt": "5정규형(5NF)",
+      "desc_main": "조인 종속 제거",
+      "desc_sub": ""
+    },
+    {
+      "title": "",
+      "main_txt": "Anomaly",
+      "desc_main": "이상 현상",
+      "desc_sub": "데이터 중복성으로 인해 릴레이션 조작 시 발생하는 비합리적 현상"
+    },
+    {
+      "title": "이상 현상 Anomaly",
+      "main_txt": "Insertion Anomaly",
+      "desc_main": "삽입 이상",
+      "desc_sub": "정보 저장 시 불필요한 세부정보 입력해야 하는 경우"
+    },
+    {
+      "title": "이상 현상 Anomaly",
+      "main_txt": "Deletion Anomaly",
+      "desc_main": "삭제 이상",
+      "desc_sub": "정보 삭제 시 원치 않는 다른 정보 같이 삭제되는 경우"
+    },
+    {
+      "title": "이상 현상 Anomaly",
+      "main_txt": "Update Anomaly",
+      "desc_main": "갱신 이상",
+      "desc_sub": "중복 데이터 중 특정 부분만 수정되어 중복된 값 모순 일으킴"
+    },
+    {
+      "title": "",
+      "main_txt": "De-Normalization",
+      "desc_main": "반 정규화",
+      "desc_sub": "정규화된 엔티티, 속성, 관계에 대해 성능 향상과 개발 운영의 단순화 위해 중복, 통합, 분리 등 수행하는 데이터 모델링 기법 \n <b>테이블 병합, 테이블 분할(수평/수직 분할), 중복 테이블 추가(집계/진행/특정 부분 포함 테이블 추가), 컬럼 중복화, 중복 관계 추가</b>"
+    },
+    {
+      "title": "",
+      "main_txt": "Index",
+      "desc_main": "검색 연산 최적화 위해 DB내 열에 대한 정보를 구성한 데이터 구조",
+      "desc_sub": "종류: <b>순해비함단결클</b>"
+    },
+    {
+      "title": "Index 종류",
+      "main_txt": "Ordered",
+      "desc_main": "순서 인덱스",
+      "desc_sub": "데이터 정렬된 순서로 생성되는 인덱스"
+    },
+    {
+      "title": "Index 종류",
+      "main_txt": "Hash",
+      "desc_main": "해시 인덱스",
+      "desc_sub": "해시 함수에 의해 직접 데이터에 키값으로 접근하는 인덱스"
+    },
+    {
+      "title": "Index 종류",
+      "main_txt": "Bitmap",
+      "desc_main": "비트맵 인덱스",
+      "desc_sub": "각 컬럼에 적은 개수 값이 저장된 경우 선택하는 인덱스"
+    },
+    {
+      "title": "Index 종류",
+      "main_txt": "Functional",
+      "desc_main": "함수기반 인덱스",
+      "desc_sub": "수식이나 함수 적용해 만든 인덱스"
+    },
+    {
+      "title": "Index 종류",
+      "main_txt": "Singled",
+      "desc_main": "단일 인덱스",
+      "desc_sub": "하나의 컬럼으로만 구성한 인덱스"
+    },
+    {
+      "title": "Index 종류",
+      "main_txt": "Concatenated",
+      "desc_main": "결합 인덱스",
+      "desc_sub": "두 개 이상의 컬럼으로 구성한 인덱스"
+    },
+    {
+      "title": "Index 종류",
+      "main_txt": "Clustered",
+      "desc_main": "클러스터드 인덱스",
+      "desc_sub": "기본 키(PK) 기준 레코드 묶어 저장하는 인덱스"
+    },
+    {
+      "title": "파티션 Partition 종류",
+      "main_txt": "레해리컴라 파티셔닝",
+      "desc_main": "<b>레인지Range</b>: 연속적 숫자, 날짜 기준  \n <b>해시Hash</b>: 파티션 키 해시 값 \n <b>리스트List</b>: 특정 파티션에 저장 될 데이터에 대한 명시적 제어 가능 \n <b>컴포지트Composite</b>: 레인지,해시, 리스트 파티셔닝 중 2개 이상 결합 \n <b>라운드로빈Round-Robin</b>: 라운드로빈 분할로 회전하면서 새로운 행 파티션에 할당",
+      "desc_sub": ""
+    },
+    {
+      "title": "파티션 Partition 장점",
+      "main_txt": "성가백합",
+      "desc_main": "성능 향상 / 가용성 향상 / 백업 가능 / 경합 감소",
+      "desc_sub": ""
+    },
+    {
+      "title": "",
+      "main_txt": "Database",
+      "desc_main": "다수의 인원, 시스템 또는 프로그램이 사용할 목적으로 통합해 관리되는 데이터 집합",
+      "desc_sub": ""
+    },
+    {
+      "title": "Database 정의",
+      "main_txt": "Integrated Data",
+      "desc_main": "통합 데이터",
+      "desc_sub": "자료 중복 배제한 데이터 모임"
+    },
+    {
+      "title": "Database 정의",
+      "main_txt": "Stored Data",
+      "desc_main": "저장된 데이터",
+      "desc_sub": "저장 매체에 저장된 데이터"
+    },
+    {
+      "title": "Database 정의",
+      "main_txt": "Operational Data",
+      "desc_main": "운영 데이터",
+      "desc_sub": "조직 업무 수행에 필요한 데이터"
+    },
+    {
+      "title": "Database 정의",
+      "main_txt": "Stored Data",
+      "desc_main": "공용 데이터",
+      "desc_sub": "여러 App,system들 공동으로 사용하는 데이터"
+    },
+    {
+      "title": "Database 특성",
+      "main_txt": "",
+      "desc_main": "<b>실시간 접근성(Real-Time Accessibilty) \n 계속적인 변화(Continuous Evolution) \n 동시 공용(Concurrent Sharing) \n 내용 참조(Content Reference)</b>",
+      "desc_sub": ""
+    },
+    {
+      "title": "Database 종류",
+      "main_txt": "File System",
+      "desc_main": "파일 시스템",
+      "desc_sub": "파일에 이름 부여 후 저장/검색 위해 논리적으로 어디에 위치시켜야 하는지 정의한 뒤 관리, DB전 단계 관리방식 \n 종류: <b>ISAM</b>(자료 색인 자료 기록 위치와 함께 색인부에 기록) \n <b>VASM</b>(대형 운영체제에서 사용되는 파일 관리 시스템)"
+    },
+    {
+      "title": "Database 종류",
+      "main_txt": "RDBMS",
+      "desc_main": "관계형 데이터베이스 관리 시스템",
+      "desc_sub": "관계형 모델 기반으로 하는 가장 보편화된 DB관리 시스템"
+    },
+    {
+      "title": "Database 종류",
+      "main_txt": "HDBMS",
+      "desc_main": "계층형 데이터베이스 관리 시스템",
+      "desc_sub": "데이터 상하 종속적 관계로 계층화해 관리하는 DB"
+    },
+    {
+      "title": "Database 종류",
+      "main_txt": "NDBMS",
+      "desc_main": "네트워크 데이터베이스 관리 시스템",
+      "desc_sub": "데이터 구조 네트워크상의 망(network)상 형태로 표현한 데이터 모델"
+    },
+    {
+      "title": "",
+      "main_txt": "DBMS",
+      "desc_main": "DataBase Management System",
+      "desc_sub": "데이터 관리 복잡성 해결하는 동시에 데이터 추가/변경/검색/삭제 및 백업/복구/보안 등 기능 지원하는 s/w"
+    },
+    {
+      "title": "DBMS 유형",
+      "main_txt": "키컬도그",
+      "desc_main": "<b>키-값(Key-Value)</b> \n <b>컬럼 기반 데이터 저장(Column Family Data Store)</b> \n <b>문서 저장(Document Store)</b> \n <b>그래프(Graph)</b>",
+      "desc_sub": ""
+    },
+    {
+      "title": "DBMS 특징",
+      "main_txt": "",
+      "desc_main": "데이터 <b>무결성 / 일관성 / 회복성 / 보안성 / 효율성</b>",
+      "desc_sub": ""
+    },
+    {
+      "title": "",
+      "main_txt": "Big Data",
+      "desc_main": "시스템, 서비스, 조직(회사) 등에서 주어진 비용/시간 내 처리 가능한 데이터 범위를 넘어서는 수십 페타바이트(PB)크기의 비정형 데이터",
+      "desc_sub": "특성: 데이터의 <b>3V: 양(Volume), 다양성(Variety), 속도(Velocity)</b> \n 5V: 진실성(Veracity), 가치(Value) \n 7V: 정확성(Validity), 휘발성(Volatility)"
+    },
+    {
+      "title": "",
+      "main_txt": "NoSQL",
+      "desc_main": "전통적인 RDBMS와 다른 DBMS저장하기 위한 용어, 데이터 저장에 고정된 테이블 스키마 필요X, Join연산 사용X, <b>수평적 확장 가능한 DBMS</b>",
+      "desc_sub": "특성: Basically Available, Sofr-State, Eventually Consistency \n 유형: Key-Value Store, Column Family Data Store, Document Store"
+    },
+    {
+      "title": "",
+      "main_txt": "Data Mining",
+      "desc_main": "데이터 마이닝",
+      "desc_sub": "대규모로 저장된 데이터 안에서 체계적이고 자동적으로 통계적 규칙이나 패턴 찾아내는 기술"
+    },
+    {
+      "title": "데이터 마이닝 Data Mining",
+      "main_txt": "Classification",
+      "desc_main": "분류 규칙",
+      "desc_sub": "과거 데이터로부터 특성 찾아내어 분류모형 만들어 이를 토대로 새로운 레코드 결과값 예측 기법"
+    },
+    {
+      "title": "데이터 마이닝 Data Mining",
+      "main_txt": "Association",
+      "desc_main": "연관 규칙",
+      "desc_sub": "데이터 안에 존재하는 항목들 간의 종속 관계 찾아내는 기법"
+    },
+    {
+      "title": "데이터 마이닝 Data Mining",
+      "main_txt": "Sequence",
+      "desc_main": "연속 규칙",
+      "desc_sub": "연관 규칙에 시간 관련 정보가 포함된 형태 기법"
+    },
+    {
+      "title": "데이터 마이닝 Data Mining",
+      "main_txt": "Clustering",
+      "desc_main": "데이터 군집화",
+      "desc_sub": "대상 레코드 유사한 특성 지닌 몇 개의 소그룹으로 분할하는 작업"
+    },
+    {
+      "title": "",
+      "main_txt": "관계대수",
+      "desc_main": "관계형DB에서 원하는 정보, 그 정보를 어떻게 유도하는가를 기술하는 절차적 정형 언어",
+      "desc_sub": ""
+    },
+    {
+      "title": "관계대수 - 일반 집합 연산자",
+      "main_txt": "Union",
+      "desc_main": "합집합 U",
+      "desc_sub": ""
+    },
+    {
+      "title": "관계대수 - 일반 집합 연산자",
+      "main_txt": "Intersection",
+      "desc_main": "교집합 ∩",
+      "desc_sub": ""
+    },
+    {
+      "title": "관계대수 - 일반 집합 연산자",
+      "main_txt": "Difference",
+      "desc_main": "차집합 -",
+      "desc_sub": ""
+    },
+    {
+      "title": "관계대수 - 일반 집합 연산자",
+      "main_txt": "Cartesian Product",
+      "desc_main": "카티션 프로덕트 x",
+      "desc_sub": ""
+    },
+    {
+      "title": "관계대수 - 순수 관계 연산자",
+      "main_txt": "Select σ",
+      "desc_main": "",
+      "desc_sub": ""
+    },
+    {
+      "title": "관계대수 - 순수 관계 연산자",
+      "main_txt": "Project π",
+      "desc_main": "",
+      "desc_sub": ""
+    },
+    {
+      "title": "관계대수 - 순수 관계 연산자",
+      "main_txt": "Join ⋈",
+      "desc_main": "",
+      "desc_sub": ""
+    },
+    {
+      "title": "관계대수 - 순수 관계 연산자",
+      "main_txt": "Division ÷",
+      "desc_main": "",
+      "desc_sub": ""
+    },
+    {
+      "title": "관계대수 - 순수 관계 연산자",
+      "main_txt": "∧(and) ∨(or) ￢(not)",
+      "desc_main": "",
+      "desc_sub": ""
+    },
+    {
+      "title": "통합구현",
+      "main_txt": "XML",
+      "desc_main": "확장성 생성 언어, 특수한 목적 갖는 마크업 언어 만드는 데 사용되는 다목적 마크업 언어",
+      "desc_sub": "SGML복잡함 해결 위해 개발, Tag정의 가능, 트리 구조 구성"
+    },
+    {
+      "title": "통합구현",
+      "main_txt": "SOAP",
+      "desc_main": "네트워크 상에서 HTTP/HTTPS, SMTP등 이용해 XML교환하기 위한 통식 규약",
+      "desc_sub": "메시지 형식, 처리 방법 지정 / 방화벽 영향 없이 통신 가능"
+    },
+    {
+      "title": "통합구현",
+      "main_txt": "WSDL",
+      "desc_main": "웹 서비스와 관련된 서식이나 프로토콜 등 표준적인 방법으로 기술/게시하기 위한 언어",
+      "desc_sub": "XML작성, UDDI의 기초가 됨, SOAP/XML 스키마와 결합해 인터넷 웹 서비스 제공하기 위해 사용됨 \n <b>UDDI</b>: 인터넷에서 전 세계 비즈니스 업체 목록에 정보 등록 위한 XML기반의 규격"
+    },
+    {
+      "title": "",
+      "main_txt": "",
+      "desc_main": "",
+      "desc_sub": ""
+    },
+    {
+      "title": "",
+      "main_txt": "",
+      "desc_main": "",
+      "desc_sub": ""
+    },
+    {
+      "title": "",
+      "main_txt": "",
+      "desc_main": "",
+      "desc_sub": ""
     }
   ],
   "type3": [
     {
-      "title": "소프트 아키텍처2",
-      "main_txt": "MVC패턴",
-      "desc_main": "모델-뷰-컨트롤러 구조",
-      "desc_sub": "각 역할의 분리로 유지보수성 향상"
+      "title": "",
+      "main_txt": "",
+      "desc_main": "",
+      "desc_sub": ""
+    },
+    {
+      "title": "",
+      "main_txt": "",
+      "desc_main": "",
+      "desc_sub": ""
+    },
+    {
+      "title": "",
+      "main_txt": "",
+      "desc_main": "",
+      "desc_sub": ""
+    },
+    {
+      "title": "",
+      "main_txt": "",
+      "desc_main": "",
+      "desc_sub": ""
+    },
+    {
+      "title": "",
+      "main_txt": "",
+      "desc_main": "",
+      "desc_sub": ""
+    },
+    {
+      "title": "",
+      "main_txt": "",
+      "desc_main": "",
+      "desc_sub": ""
+    },
+    {
+      "title": "",
+      "main_txt": "",
+      "desc_main": "",
+      "desc_sub": ""
+    },
+    {
+      "title": "",
+      "main_txt": "",
+      "desc_main": "",
+      "desc_sub": ""
+    },
+    {
+      "title": "",
+      "main_txt": "",
+      "desc_main": "",
+      "desc_sub": ""
+    },
+    {
+      "title": "",
+      "main_txt": "",
+      "desc_main": "",
+      "desc_sub": ""
+    },
+    {
+      "title": "",
+      "main_txt": "",
+      "desc_main": "",
+      "desc_sub": ""
+    },
+    {
+      "title": "",
+      "main_txt": "",
+      "desc_main": "",
+      "desc_sub": ""
+    },
+    {
+      "title": "",
+      "main_txt": "",
+      "desc_main": "",
+      "desc_sub": ""
+    },
+    {
+      "title": "",
+      "main_txt": "",
+      "desc_main": "",
+      "desc_sub": ""
+    },
+    {
+      "title": "",
+      "main_txt": "",
+      "desc_main": "",
+      "desc_sub": ""
     }
   ],
   "type4": [
     {
-      "title": "DB 설계2",
-      "main_txt": "정규화",
-      "desc_main": "데이터 중복 제거",
-      "desc_sub": "1NF, 2NF, 3NF..."
+      "title": "",
+      "main_txt": "",
+      "desc_main": "",
+      "desc_sub": ""
     },
     {
-      "title": "소프트 아키텍처552",
-      "main_txt": "MVC패턴",
-      "desc_main": "모델-뷰-컨트롤러 구조",
-      "desc_sub": "각 역할의 분리로 유지보수성 향상"
+      "title": "",
+      "main_txt": "",
+      "desc_main": "",
+      "desc_sub": ""
+    },
+    {
+      "title": "",
+      "main_txt": "",
+      "desc_main": "",
+      "desc_sub": ""
+    },
+    {
+      "title": "",
+      "main_txt": "",
+      "desc_main": "",
+      "desc_sub": ""
+    },
+    {
+      "title": "",
+      "main_txt": "",
+      "desc_main": "",
+      "desc_sub": ""
+    },
+    {
+      "title": "",
+      "main_txt": "",
+      "desc_main": "",
+      "desc_sub": ""
+    },
+    {
+      "title": "",
+      "main_txt": "",
+      "desc_main": "",
+      "desc_sub": ""
+    },
+    {
+      "title": "",
+      "main_txt": "",
+      "desc_main": "",
+      "desc_sub": ""
+    },
+    {
+      "title": "",
+      "main_txt": "",
+      "desc_main": "",
+      "desc_sub": ""
+    },
+    {
+      "title": "",
+      "main_txt": "",
+      "desc_main": "",
+      "desc_sub": ""
+    },
+    {
+      "title": "",
+      "main_txt": "",
+      "desc_main": "",
+      "desc_sub": ""
+    },
+    {
+      "title": "",
+      "main_txt": "",
+      "desc_main": "",
+      "desc_sub": ""
+    },
+    {
+      "title": "",
+      "main_txt": "",
+      "desc_main": "",
+      "desc_sub": ""
+    },
+    {
+      "title": "",
+      "main_txt": "",
+      "desc_main": "",
+      "desc_sub": ""
+    },
+    {
+      "title": "",
+      "main_txt": "",
+      "desc_main": "",
+      "desc_sub": ""
     }
   ],
   "type5": [
     {
-      "title": "DB 설계5",
-      "main_txt": "정규화",
-      "desc_main": "데이터 중복 제거",
-      "desc_sub": "1NF, 2NF, 3NF..."
+      "title": "OSI 7계층",
+      "main_txt": "물데네 전세표응",
+      "desc_main": "물리 계층\n데이터 링크 계층\n네트워크 계층\n전송 계층\n세션 계층\n표현 계층\n응용 계층",
+      "desc_sub": ""
+    },
+    {
+      "title": "OSI 7계층",
+      "main_txt": "Physical Layer",
+      "desc_main": "물리 계층",
+      "desc_sub": "0과1 비트 정보 회선에 보내기 위한 전기적 신호 변환 \n <b>프로토콜</b>: RS-232C\n <b>전송 단위</b>: 비트(Bit)"
+    },
+    {
+      "title": "OSI 7계층",
+      "main_txt": "Data Link Layer",
+      "desc_main": "데이터 링크 계층",
+      "desc_sub": "인접 시스템 간 데이터 전송, 오류 제어 \n <b>프로토콜</b>: 이더넷\n <b>전송 단위</b>: 프레임(Frame)"
+    },
+    {
+      "title": "OSI 7계층",
+      "main_txt": "Network Layer",
+      "desc_main": "네트워크 계층",
+      "desc_sub": "단말 간 데이트 전송 최적화 경로 제공 \n <b>프로토콜</b>: IP, ICMP\n <b>전송 단위</b>: 패킷(Packet)"
+    },
+    {
+      "title": "OSI 7계층",
+      "main_txt": "Transort Layer",
+      "desc_main": "전송 계층",
+      "desc_sub": "신뢰성 있는 통신 보장, 데이터 분할/재조립 등 \n <b>프로토콜</b>: TCP, UDP\n <b>전송 단위</b>: 세그먼트(Segment)"
+    },
+    {
+      "title": "OSI 7계층",
+      "main_txt": "Session Layer",
+      "desc_main": "세션 계층",
+      "desc_sub": "연결 접속 및 동기 제어 \n <b>프로토콜</b>: SSH, TLS \n <b>전송 단위</b>: 데이터(Data)"
+    },
+    {
+      "title": "OSI 7계층",
+      "main_txt": "Presentation Layer",
+      "desc_main": "표현 계층",
+      "desc_sub": "데이터 형식 설정과 부호 교환, 암/복호화 \n <b>프로토콜</b>: JPEG, MPEG\n <b>전송 단위</b>: 데이터(Data)"
+    },
+    {
+      "title": "OSI 7계층",
+      "main_txt": "Application Layer",
+      "desc_main": "응용 계층",
+      "desc_sub": "사용자-네트워크 응용서비스 연걸, 데이터 생성 \n <b>프로토콜</b>: HTTP, FTP \n <b>전송 단위</b>: 데이터(Data)"
+    },
+    {
+      "title": "",
+      "main_txt": "",
+      "desc_main": "",
+      "desc_sub": ""
+    },
+    {
+      "title": "",
+      "main_txt": "",
+      "desc_main": "",
+      "desc_sub": ""
+    },
+    {
+      "title": "",
+      "main_txt": "",
+      "desc_main": "",
+      "desc_sub": ""
+    },
+    {
+      "title": "",
+      "main_txt": "",
+      "desc_main": "",
+      "desc_sub": ""
+    },
+    {
+      "title": "",
+      "main_txt": "",
+      "desc_main": "",
+      "desc_sub": ""
+    },
+    {
+      "title": "",
+      "main_txt": "",
+      "desc_main": "",
+      "desc_sub": ""
+    },
+    {
+      "title": "",
+      "main_txt": "",
+      "desc_main": "",
+      "desc_sub": ""
+    },
+    {
+      "title": "",
+      "main_txt": "",
+      "desc_main": "",
+      "desc_sub": ""
+    },
+    {
+      "title": "",
+      "main_txt": "",
+      "desc_main": "",
+      "desc_sub": ""
+    },
+    {
+      "title": "",
+      "main_txt": "",
+      "desc_main": "",
+      "desc_sub": ""
+    },
+    {
+      "title": "",
+      "main_txt": "",
+      "desc_main": "",
+      "desc_sub": ""
+    },
+    {
+      "title": "",
+      "main_txt": "",
+      "desc_main": "",
+      "desc_sub": ""
+    },
+    {
+      "title": "",
+      "main_txt": "",
+      "desc_main": "",
+      "desc_sub": ""
     }
   ]
 }

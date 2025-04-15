@@ -52,7 +52,6 @@ main{
       min-height:100vh;
       background: #eee;
   }
-  
 }
 section{
   display: inline-flex;
@@ -87,7 +86,9 @@ article{
       font-size: 14px;
     }
     &_sub{
+      margin-top: 4px;
       color: #2e2e2e;
+      text-align: center;
       font-size: 14px;
     }
   }
@@ -98,7 +99,7 @@ article{
   justify-content: center;
   width: 100%;
   position: absolute;
-  bottom: 20%;
+  bottom: 12%;
   left: 50%;
   transform: translateX(-50%);
   button{

@@ -1,0 +1,60 @@
+{
+  "type1": [
+    {
+      "title": "소프트 아키텍처1",
+      "main_txt": "4+1뷰",
+      "desc_main": "제작자(4)+사용자(1)의 관점(view)",
+      "desc_sub": "논리적 관점, 구현관점, 배치관점, \n프로세스 관점, 유스케이스 관점"
+    },
+    {
+      "title": "소프트 아키텍처ddd2",
+      "main_txt": "MVC패턴",
+      "desc_main": "모델-뷰-컨트롤러 구조",
+      "desc_sub": "각 역할의 분리로 유지보수성 향상"
+    }
+  ],
+  "type2": [
+    {
+      "title": "DB 설계1",
+      "main_txt": "정규화",
+      "desc_main": "데이터 중복 제거",
+      "desc_sub": "1NF, 2NF, 3NF..."
+    },
+    {
+      "title": "소프트 아키텍처332",
+      "main_txt": "MVC패턴",
+      "desc_main": "모델-뷰-컨트롤러 구조",
+      "desc_sub": "각 역할의 분리로 유지보수성 향상"
+    }
+  ],
+  "type3": [
+    {
+      "title": "소프트 아키텍처2",
+      "main_txt": "MVC패턴",
+      "desc_main": "모델-뷰-컨트롤러 구조",
+      "desc_sub": "각 역할의 분리로 유지보수성 향상"
+    }
+  ],
+  "type4": [
+    {
+      "title": "DB 설계2",
+      "main_txt": "정규화",
+      "desc_main": "데이터 중복 제거",
+      "desc_sub": "1NF, 2NF, 3NF..."
+    },
+    {
+      "title": "소프트 아키텍처552",
+      "main_txt": "MVC패턴",
+      "desc_main": "모델-뷰-컨트롤러 구조",
+      "desc_sub": "각 역할의 분리로 유지보수성 향상"
+    }
+  ],
+  "type5": [
+    {
+      "title": "DB 설계5",
+      "main_txt": "정규화",
+      "desc_main": "데이터 중복 제거",
+      "desc_sub": "1NF, 2NF, 3NF..."
+    }
+  ]
+}
